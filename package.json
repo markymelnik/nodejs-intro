@@ -1,8 +1,21 @@
 {
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mark Melnik",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
     "https": "^1.0.0",
     "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   },
   "type": "module"
 }
